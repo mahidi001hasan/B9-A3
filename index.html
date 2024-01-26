@@ -190,7 +190,7 @@
           to reach out. Your feedback is invaluable to us.</p>
       </div>
 
-      <div class="grid grid-cols-2">
+      <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-16">
         <div>
           <div class="bg-[#BCED6D1A] m-3 rounded-2xl">
             <img class="px-3 py-10" src="image/phone.png" alt="">
@@ -221,58 +221,67 @@
         </div>
 
         <!-- part2 -->
-        <div class=" grid grid-cols-2 h-2">
-          <div class="border-4 border-indigo-500/100">
-            <label class="form-control w-full max-w-xs ">
+        <div class=" grid grid-cols-1 lg:grid-cols-2 lg:h-2">
+          <div>
+            <label class="form-control  lg:w-full lg:max-w-xs ">
               <div class="label">
-                <span class="label-text">What is your name?</span>
+                <span class="label-text">Your name</span>
 
               </div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              <input type="text" placeholder="Enter your full name" class="input input-bordered w-[483px] lg:w-full lg:max-w-xs" />
 
             </label>
           </div>
           <div>
             <label class="form-control w-full max-w-xs">
               <div class="label">
-                <span class="label-text">What is your name?</span>
-                <span class="label-text-alt">Top Right label</span>
+                <span class="label-text">Your Email</span>
+
               </div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-              <div class="label">
-                <span class="label-text-alt">Bottom Left label</span>
-                <span class="label-text-alt">Bottom Right label</span>
-              </div>
+              <input type="email" placeholder="Enter your email" class="input input-bordered w-[483px] lg:w-full lg:max-w-xs" />
+
             </label>
           </div>
 
+          <div><label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text">Subject</span>
 
+              </div>
+              <input type="text" placeholder="Type here" class="input input-bordered w-[483px] lg:w-full lg:max-w-xs" />
 
-          <label class="form-control w-full max-w-xs">
-            <div class="label">
-              <span class="label-text">What is your name?</span>
-              <span class="label-text-alt">Top Right label</span>
-            </div>
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-            <div class="label">
-              <span class="label-text-alt">Bottom Left label</span>
-              <span class="label-text-alt">Bottom Right label</span>
-            </div>
-          </label>
+            </label></div>
 
-          <label class="form-control w-full max-w-xs">
-            <div class="label">
-              <span class="label-text">What is your name?</span>
-              <span class="label-text-alt">Top Right label</span>
-            </div>
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-            <div class="label">
-              <span class="label-text-alt">Bottom Left label</span>
-              <span class="label-text-alt">Bottom Right label</span>
-            </div>
-          </label>
+          <div><label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text">Phone Number</span>
+
+              </div>
+              <input type="text" placeholder="Type here" class="input input-bordered w-[483px] lg:w-full lg:max-w-xs" />
+
+            </label>
+          </div>
+
+          <div class="lg:row-span-2 lg:col-span-2">
+            <label class="form-control">
+              <div class="label">
+                <span class="label-text">Message</span>
+                
+              </div>
+              <textarea class="textarea textarea-bordered h-80 lg:h-96 lg:w-[685px]" placeholder="Write your message"></textarea>
+              
+            </label>
+          </div>
+  
+          <button class="btn btn-wide lg:w-[685px] mt-4">Wide</button>
+
+         
 
         </div>
+
+        
+
+
       </div>
     </section>
 
